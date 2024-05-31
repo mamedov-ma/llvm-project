@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_MAILKA_TARGETINFO_RISCXTARGETINFO_H
+#define LLVM_LIB_TARGET_MAILKA_TARGETINFO_RISCXTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheMAILKATarget();
+
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_MAILKA_TARGETINFO_MAILKATARGETINFO_H
